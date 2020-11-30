@@ -1,0 +1,23 @@
+.color-box {
+    width: 50px;
+    height:     50px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.after {
+    background-color:red;
+}
+.before {
+    background-color:green;
+}
+.append {
+    background-color:blue;
+}
+.prepend {
+    background-color:cyan;
+}
+.attached {
+    background-color:gold;
+}
