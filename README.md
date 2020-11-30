@@ -1,7 +1,7 @@
 # JQUERY Practice and Playing
 
 
-Is intuitive and easy to learn.
+It is intuitive and easy to learn.
 It integrates with Visual Studio IDE with ease.
 Helps in loading pages faster and is SEO friendly.
 Helps in Creating animated pages.
@@ -9,18 +9,18 @@ Helps in Creating animated pages.
 ------------------------------------------------------
 CSS Selectors
 ------------------------------------------------------
-TagName Selectors
-ID
-Class
-Pseudo-Class
+- TagName Selectors
+- ID
+- Class
+- Pseudo-Class
 
 ------------------------------------------------------
 The JQuery Objects
 ------------------------------------------------------
 
 JQuery(<code>)
-`$(<code>)`
-`$(document)`
+- `$(<code>)`
+- `$(document)`
 
 
 ------------------------------------------------------
@@ -140,8 +140,9 @@ JQuery makes it easy with encapsulating all the complexity  by providing a singl
 - **.animate()**, which handles any type of animation.
 Basically the animations will be created by altering the values of the CSS attributes
 Animate method take 4 parameters
- * **Properties** - It takes CSS properties and applies on element to make our animation
- * **Duration**   - It takes time in milliseconds to play our animation
- * **Easing**   - Easing indicates transition effect which will be applied to animation
- * **Complete**   - Here we can provide callback function to execute soon after animation finishes
+
+ - **Properties** - It takes CSS properties and applies on element to make our animation
+ - **Duration**   - It takes time in milliseconds to play our animation
+ - **Easing**   - Easing indicates transition effect which will be applied to animation
+ - **Complete**   - Here we can provide callback function to execute soon after animation finishes
 -> Syntax >> `.animate(properties[, duration][,Easing][, complete])`
