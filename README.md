@@ -120,13 +120,14 @@ JQuery provides a very simple method for doing various kinds of amazing effects 
 (e.g. 1000)
 
 - Callback This is optional parameter which represents a function to be executed whenever the animation completes. 
-- Toggle() if it's hide it will be shown r if it's shown it will be hide.
-- fadeIn() Fade in all the selected elements by adjusting css opacity
-- fadeOut() Fade Out all the selected elements by css opacity
-- fadeTo(Speed, Opacity, Callback) These methods add css opacity specified in the parameter
-- slideDown() Adds height to the div form 0 to div's original height with slide effects
-- slideUp() Hides the div with adding height and slide effects
-- slideToggle() Toggles the visibility of the selected element with adding height and slide effects
+- **Toggle()** if it's hide it will be shown r if it's shown it will be hide.
+- **fadeIn()** Fade in all the selected elements by adjusting css opacity
+- **fadeOut()** Fade Out all the selected elements by css opacity
+- **fadeTo(Speed, Opacity, Callback)** 
+                These methods add css opacity specified in the parameter
+- **slideDown()** Adds height to the div form 0 to div's original height with slide effects
+- **slideUp()** Hides the div with adding height and slide effects
+- **slideToggle()** Toggles the visibility of the selected element with adding height and   slide effects
 
 
 ------------------------------------------------------
