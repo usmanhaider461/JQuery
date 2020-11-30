@@ -125,12 +125,12 @@
         // JQuery Animation
         // ******************
 
-         $('#animateBoxes').click(function () {
-            $('.color-box').animate({
-                'width': '300px',
-                'display': 'block',
-                // position: 'absolute',
-                'margin-top': '300px',
-                'opacity': '0.5',
-            }, 2000)
-        })
+        //  $('#animateBoxes').click(function () {
+        //     $('.color-box').animate({
+        //         'width': '300px',
+        //         'display': 'block',
+        //         // position: 'absolute',
+        //         'margin-top': '300px',
+        //         'opacity': '0.5',
+        //     }, 2000)
+        // })

@@ -146,3 +146,38 @@ Animate method take 4 parameters
  - **Easing**   - Easing indicates transition effect which will be applied to animation
  - **Complete**   - Here we can provide callback function to execute soon after animation finishes
 -> Syntax >> `.animate(properties[, duration][,Easing][, complete])`
+
+
+------------------------------------------------------
+The JQuery Form Validation
+------------------------------------------------------
+
+Form validation got easier with HTML5 default browser validation. Earlier we used to write own validation scripts to validate user inputs, but with the introduction of **HTML5 browser it has got ability to perform basic validation.**
+ - In some cases, HTML5 validation fail in older browser.
+ - With **jQuery you can make Validation more usable, interactive with a Rich look.**
+ 
+ 1. **Textbox**: $('input:text') / $('input[type=text]'): Using this Selector we get all textboxes and its related properties.
+  - Get/Set Value
+  - Get: $('input:text').val();
+  - Set: $('input:text').val("New Value");
+ 2. **Password**: $('input:password') / $('input[type=text]'): Using this Selector we get all text boxes and its related properties.
+  - Get/Set Value
+  - Get: $('input:password').val();
+  - Set: $('input:password').val("New Value");
+
+  
+------------------------------------------------------
+The JQuery Regular Expression
+------------------------------------------------------
+
+These are common features of computer languages .removeattr( name ) - removes an attributes from the selected element.
+Javascript was designed with regex in mind. Commonly referred to as regex, regexp.
+
+ ^ Start of string
+ $ end of string
+ . any single character
+ + One or more character
+ \ Escape Special Character
+ ? Zero or more Characters
+
+ [regex101.com](https://regex101.com)
