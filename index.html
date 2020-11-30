@@ -87,7 +87,7 @@
     </button>
     <div></div> -->
 
-    <h1>JQuery Effects</h1>
+    <!-- <h1>JQuery Effects</h1>
     <div class="container">
         <div class="color-box after">
             After
@@ -104,7 +104,12 @@
     </div>
     <button id="showBoxes">Show</button>
     <button id="hideBoxes">Hide</button>
-    <button id="toggleBoxes">Toggle Boxes</button>
+    <button id="toggleBoxes">Toggle Boxes</button> -->
+
+    <h1>JQuery Animation</h1>
+    <button id="animateBoxes">Animate</button>
+
+
 
     <!-- **************************** -->
     <!-- Javascript JQuery Code -->
@@ -211,19 +216,19 @@
         //     console.log($('div').data("items"));
         // });
 
-        $('#showBoxes').click(function () {
-            // $('.color-box').hide(1000);
-            // $('.color-box').fadeIn(1000);
-            // $('.color-box').fadeTo(1000, 0.5);
-            // $('.color-box').slideUp();
-            $('.color-box').slideToggle();
-        });
-        $('#hideBoxes').click(function () {
-            // $('.color-box').show(1000);
-            // $('.color-box').fadeOut(1000);
-            // $('.color-box').fadeTo(1000, 1);
-            // $('.color-box').slideDown();
-        });
+        // $('#showBoxes').click(function () {
+        // $('.color-box').hide(1000);
+        // $('.color-box').fadeIn(1000);
+        // $('.color-box').fadeTo(1000, 0.5);
+        // $('.color-box').slideUp();
+        //     $('.color-box').slideToggle();
+        // });
+        // $('#hideBoxes').click(function () {
+        // $('.color-box').show(1000);
+        // $('.color-box').fadeOut(1000);
+        // $('.color-box').fadeTo(1000, 1);
+        // $('.color-box').slideDown();
+        // });
         // $('#showBoxes').click(function () {
         //     $('.color-box').show(500);
         // });
@@ -231,9 +236,12 @@
         //     $('.color-box').hide(1000);
 
         // });
-        $('#toggleBoxes').click(function () {
-            $('.color-box').toggle(100);
-        });
+        // $('#toggleBoxes').click(function () {
+        //     $('.color-box').toggle(100);
+        // });
+        $('#animateBoxes').click(function () {
+
+        }, 1000)
     </script>
 </body>
 
