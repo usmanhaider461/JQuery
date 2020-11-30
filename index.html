@@ -88,18 +88,24 @@
     <div></div> -->
 
     <h1>JQuery Effects</h1>
-    <div class="color-box after">
-        After
+    <div class="container">
+        <div class="color-box after">
+            After
+        </div>
+        <div class="color-box before">
+            Before
+        </div>
+        <div class="color-box append">
+            append
+        </div>
+        <div class="color-box prepend">
+            prepend
+        </div>
     </div>
-    <div class="color-box before">
-        Before
-    </div>
-    <div class="color-box append">
-        append
-    </div>
-    <div class="color-box prepend">
-        prepend
-    </div>
+    <button id="showBoxes">Show</button>
+    <button id="hideBoxes">Hide</button>
+    <button id="toggleBoxes">Toggle Boxes</button>
+
     <!-- **************************** -->
     <!-- Javascript JQuery Code -->
     <!-- **************************** -->
@@ -204,6 +210,30 @@
         //     console.log($('div').data("cart"));
         //     console.log($('div').data("items"));
         // });
+
+        $('#showBoxes').click(function () {
+            // $('.color-box').hide(1000);
+            // $('.color-box').fadeIn(1000);
+            // $('.color-box').fadeTo(1000, 0.5);
+            // $('.color-box').slideUp();
+            $('.color-box').slideToggle();
+        });
+        $('#hideBoxes').click(function () {
+            // $('.color-box').show(1000);
+            // $('.color-box').fadeOut(1000);
+            // $('.color-box').fadeTo(1000, 1);
+            // $('.color-box').slideDown();
+        });
+        // $('#showBoxes').click(function () {
+        //     $('.color-box').show(500);
+        // });
+        // $('#hideBoxes').click(function () {
+        //     $('.color-box').hide(1000);
+
+        // });
+        $('#toggleBoxes').click(function () {
+            $('.color-box').toggle(100);
+        });
     </script>
 </body>
 

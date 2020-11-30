@@ -5,6 +5,10 @@
     margin: 10px;
     text-align: center;
     padding: 10px;
+    display: inline-block;
+}
+.container{
+    
 }
 .after {
     background-color:red;
