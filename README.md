@@ -94,8 +94,8 @@ There are two approaches
 The JQuery Filters
 ------------------------------------------------------
 
-- eq() - selects from the set of matched elements to the one at the specified index
-- filter() selects from the set of matched elements to those that match the selector or pass the function's test
+- **eq()** - selects from the set of matched elements to the one at the specified index
+- **filter()** selects from the set of matched elements to those that match the selector or pass the function's test
 
 - **.has()**
 - **.not()**
