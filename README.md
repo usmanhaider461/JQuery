@@ -1,4 +1,5 @@
-#JQUERY Practice and Playing
+# JQUERY Practice and Playing
+
 
 Is intuitive and easy to learn.
 It integrates with Visual Studio IDE with ease.
